@@ -167,19 +167,17 @@ function renderProjectsOnHome() {
         const card = document.createElement("div");
         card.className = "project-card reveal"; // Added reveal class for scroll animation
         
-        // Handle image or placeholder text
+        // Only render the image section if an image is provided
         const imageHTML = proj.imageSrc 
-            ? `<img src="${proj.imageSrc}" alt="${proj.title}">` 
-            : `<span>${proj.imagePlaceholder}</span>`;
+            ? `<div class="project-image"><img src="${proj.imageSrc}" alt="${proj.title}"></div>` 
+            : '';
 
         // Handle tags
         const tagsHTML = proj.technologies.map(tech => `<span class="tech-tag">${tech}</span>`).join("");
 
         // Set inner HTML
         card.innerHTML = `
-            <div class="project-image">
-                ${imageHTML}
-            </div>
+            ${imageHTML}
             <div class="project-content">
                 <span class="project-status">${proj.status}</span>
                 <h3 class="project-title">${proj.title}</h3>
