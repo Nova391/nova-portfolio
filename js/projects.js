@@ -31,6 +31,127 @@ const myProjects = [
             "https://github.com/Nova391/Project-MM.git",
 
         demo: ""
+    },
+    {
+        id: "ai-email-organizer",
+        title: "AI Email Organizer",
+        status: "In Development",
+
+        description:
+            "An intelligent email management system that connects to Gmail and uses custom machine learning models to automatically classify emails by category and priority.",
+
+        imagePlaceholder: "AI Email Organizer",
+        imageSrc: "",
+
+        technologies: [
+            "Python",
+            "Machine Learning",
+            "Naive Bayes",
+            "Gmail API",
+            "Google OAuth",
+            "FastAPI"
+        ],
+
+        problem:
+            "Large inboxes make it difficult to quickly identify important emails, separate different types of messages, and focus on what requires attention first.",
+
+        solution:
+            "I am building an email organization system that integrates with Gmail and automatically analyzes messages using machine learning. I implemented custom Naive Bayes classifiers for email category and priority prediction, including my own training, evaluation, model persistence, and classification pipeline.",
+
+        github:
+            "https://github.com/Nova391/ai-email-organizer.git",
+
+        demo: ""
+    },
+    {
+        id: "ml-classification",
+        title: "ML Text Classification",
+        status: "Completed",
+
+        description:
+            "A practical machine learning text classifier that distinguishes customer messages between issues and general inquiries.",
+
+        imagePlaceholder: "ML Classification Pipeline",
+        imageSrc: "",
+
+        technologies: [
+            "Python",
+            "Pandas",
+            "scikit-learn",
+            "TF-IDF",
+            "Logistic Regression"
+        ],
+
+        problem:
+            "Text-based customer messages need to be automatically categorized so systems can distinguish support problems from general questions.",
+
+        solution:
+            "I built a complete text classification pipeline using Pandas, TF-IDF vectorization, and Logistic Regression. The project includes dataset preparation, train/test splitting, model training, predictions, and evaluation using accuracy, precision, recall, and F1-score.",
+
+        github:
+            "https://github.com/Nova391/ML-Classification.git",
+
+        demo: ""
+    },
+    {
+        id: "neural-network-from-scratch",
+        title: "Neural Network From Scratch",
+        status: "Completed",
+
+        description:
+            "A neural network implemented manually in pure Python to understand forward propagation, backpropagation, gradients, and training without machine learning frameworks.",
+
+        imagePlaceholder: "Neural Network Architecture",
+        imageSrc: "",
+
+        technologies: [
+            "Python",
+            "Neural Networks",
+            "Backpropagation",
+            "Gradient Descent",
+            "ReLU"
+        ],
+
+        problem:
+            "High-level machine learning frameworks hide many of the mathematical operations that make neural networks learn.",
+
+        solution:
+            "I implemented a small neural network entirely from scratch in Python to solve the XOR problem. The project manually calculates weighted sums, ReLU activations, loss, gradients, backpropagation, parameter updates, and training without using PyTorch, TensorFlow, Keras, or scikit-learn.",
+
+        github:
+            "https://github.com/Nova391/Neural-network-from-scratch.git",
+
+        demo: ""
+    },
+    {
+        id: "sentiment-classifier",
+        title: "Sentiment Classifier From Scratch",
+        status: "Completed",
+
+        description:
+            "A binary sentiment classifier implemented from scratch in Python without using machine learning libraries.",
+
+        imagePlaceholder: "Sentiment Classification Pipeline",
+        imageSrc: "",
+
+        technologies: [
+            "Python",
+            "Logistic Regression",
+            "Bag of Words",
+            "Gradient Descent",
+            "NLP"
+        ],
+
+        problem:
+            "Understanding how text classification models work internally is difficult when libraries handle feature extraction, prediction, loss calculation, and training automatically.",
+
+        solution:
+            "I built a sentiment classifier from scratch that converts text into Bag-of-Words vectors and uses manually implemented logistic regression. The project includes vocabulary construction, preprocessing, sigmoid activation, binary cross-entropy loss, gradients, gradient descent, training, testing, and accuracy evaluation.",
+
+        github:
+            "https://github.com/Nova391/sentiment-classifier-from-scratch.git",
+
+        demo: ""
     }
 ];
 
