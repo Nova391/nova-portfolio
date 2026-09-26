@@ -2,7 +2,7 @@
 
 > Personal portfolio website showcasing software development projects, AI-powered solutions, automation experiments, and technical work.
 
-🌐 **Live Website:** [YOUR_VERCEL_URL]
+🌐 **Live Website:** https://nova-portfolio-lac.vercel.app/
 💻 **GitHub:** https://github.com/Nova391
 
 ---
@@ -158,11 +158,11 @@ Current focus:
 
 If you'd like to discuss a project, collaboration, or software solution:
 
-**Fiverr:** [YOUR_FIVERR_PROFILE_URL]
+**Fiverr:** https://www.fiverr.com/abukhalil_moha/buying?source=avatar_menu_profile
 
 **GitHub:** https://github.com/Nova391
 
-**Portfolio:** [YOUR_VERCEL_URL]
+**Portfolio:** https://nova-portfolio-lac.vercel.app/
 
 ---
 
