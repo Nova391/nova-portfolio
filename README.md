@@ -140,20 +140,6 @@ Current focus:
 
 ---
 
-## Roadmap
-
-* [x] Create initial portfolio
-* [x] Deploy portfolio
-* [x] Add Project MM
-* [ ] Add Project MM screenshots
-* [ ] Add Project MM live demo
-* [ ] Build first AI automation project
-* [ ] Add additional completed projects
-* [ ] Improve portfolio case studies
-* [ ] Add custom domain
-
----
-
 ## Contact
 
 If you'd like to discuss a project, collaboration, or software solution:
